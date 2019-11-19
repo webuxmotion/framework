@@ -1,16 +1,25 @@
 <?php
 
 $query = rtrim($_SERVER['QUERY_STRING'], '/');
+
+define('WWW', __DIR__);
+define('ROOT', dirname(__DIR__));
+define('CORE', ROOT . '/core');
+define('APP', ROOT . '/app');
+
 require '../core/libs/functions.php';
 require '../core/Router.php';
-require '../app/controllers/Main.php';
-require '../app/controllers/Posts.php';
-require '../app/controllers/NewPosts.php';
 
-//Router::add('posts/add', ['controller' => 'Posts', 'action' => 'add']);
-//Router::add('posts', ['controller' => 'Posts', 'action' => 'index']);
-//Router::add('', ['controller' => 'Main', 'action' => 'index']);
+spl_autoload_register(function($class) {
+  $file = APP . "/controllers/$class.php";
+  if (is_file($file)) {
+    require $file;
+  }
+});
 
+Router::add('^pages/?(?P<action>[a-z-]+)?$', ['controller' => 'posts']);
+
+// default  routes
 Router::add('^$', ['controller' => 'Main', 'action' => 'index']);
 Router::add('^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$');
 

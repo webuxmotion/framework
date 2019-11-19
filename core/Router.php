@@ -45,9 +45,16 @@ class Router
       $controller = self::upperCamelCase($controller);
 
       if (class_exists($controller)) {
-        echo 'OK';
+        $cObj = new $controller();
+        $action = self::$route['action'];
+        $action = self::lowerCamelCase($action) . 'Action';
+        if (method_exists($cObj, $action)) {
+          $cObj->$action();
+        } else {
+          echo "Method <b>$controller::$action</b> does not found";
+        }
       } else {
-        echo 'NOT A CONTROLLER';
+        echo "Controller <b>$controller</b> does not found";
       }
     } else {
       http_response_code(404);
@@ -59,6 +66,11 @@ class Router
     $name = str_replace('-', ' ', $name);   
     $name = ucwords($name);
     $name = str_replace(' ', '', $name);
+    return $name;
+  }
+
+  protected static function lowerCamelCase($name) {
+    $name = lcfirst(self::upperCamelCase($name));
     return $name;
   }
 }
