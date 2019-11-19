@@ -2,9 +2,11 @@
 
 namespace app\controllers;
 
-class Posts
+use core\base\Controller;
+
+class Posts extends Controller
 {
   public function indexAction() {
-    echo __METHOD__;
+    debug($this->route);
   }
 }
