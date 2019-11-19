@@ -9,7 +9,7 @@ class Router
   protected static $routes = [];
   protected static $route = [];
 
-  public static function add($regexp, $route) {
+  public static function add($regexp, $route = []) {
     self::$routes[$regexp] = $route;
   }
 
@@ -23,11 +23,42 @@ class Router
 
   public static function matchRoute($url) {
     foreach (self::$routes as $pattern => $route) {
-      if ($url == $pattern) {
+      if (preg_match("#$pattern#i", $url, $matches)) {
+        foreach ($matches as $key => $val) {
+          if (is_string($key)) {
+            $route[$key] = $val;
+          }
+        }
+        if (!isset($route['action'])) {
+          $route['action'] = 'index';
+        }
         self::$route = $route;
         return true;
       }
     }
     return false;
+  }
+
+  public static function dispatch($url) {
+    if (self::matchRoute($url)) {
+      $controller = self::$route['controller'];
+      $controller = self::upperCamelCase($controller);
+
+      if (class_exists($controller)) {
+        echo 'OK';
+      } else {
+        echo 'NOT A CONTROLLER';
+      }
+    } else {
+      http_response_code(404);
+      include '404.html';
+    }
+  }
+
+  protected static function upperCamelCase($name) {
+    $name = str_replace('-', ' ', $name);   
+    $name = ucwords($name);
+    $name = str_replace(' ', '', $name);
+    return $name;
   }
 }
