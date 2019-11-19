@@ -1,4 +1,7 @@
 <?php
+error_reporting(-1);
+
+use core\Router;
 
 $query = rtrim($_SERVER['QUERY_STRING'], '/');
 
@@ -8,12 +11,12 @@ define('CORE', ROOT . '/core');
 define('APP', ROOT . '/app');
 
 require '../core/libs/functions.php';
-require '../core/Router.php';
 
 spl_autoload_register(function($class) {
-  $file = APP . "/controllers/$class.php";
+  $file = ROOT . '/' . str_replace('\\', '/', $class) . '.php';
+  echo $file . '<br>';
   if (is_file($file)) {
-    require $file;
+    require_once $file;
   }
 });
 
