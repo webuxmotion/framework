@@ -3,7 +3,7 @@ error_reporting(-1);
 
 use core\Router;
 
-$query = rtrim($_SERVER['QUERY_STRING'], '/');
+$query = trim($_SERVER['REQUEST_URI'], '/');
 
 define('WWW', __DIR__);
 define('ROOT', dirname(__DIR__));
@@ -19,7 +19,8 @@ spl_autoload_register(function($class) {
   }
 });
 
-Router::add('^pages/?(?P<action>[a-z-]+)?$', ['controller' => 'posts']);
+Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', ['controller' => 'Page']);
+Router::add('^page/(?P<alias>[a-z-]+)$', ['controller' => 'Page', 'action' => 'view']);
 
 // default  routes
 Router::add('^$', ['controller' => 'Main', 'action' => 'index']);

@@ -9,7 +9,7 @@ abstract class Controller
 
   public function __construct($route) {
     $this->route = $route;
-    $this->view = $route['action'];
-    include APP . "/views/{$route['controller']}/{$route['action']}.php";
+    // $this->view = $route['action'];
+    // include APP . "/views/{$route['controller']}/{$route['action']}.php";
   }
 }
