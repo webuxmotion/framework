@@ -2,15 +2,15 @@
 
 namespace app\controllers;
 
-class NewPosts
+class NewPosts extends App
 {
   public function indexAction() {
-    echo __METHOD__;
+    
   }
 
   public function testAction() {
-    echo __METHOD__;
-    debug($_GET);
-    debug($_SERVER);
+    $name = 'Andrii';
+    $surname = 'Pereverziev';
+    $this->set(compact('name', 'surname'));
   }
 }

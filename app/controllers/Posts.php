@@ -2,9 +2,7 @@
 
 namespace app\controllers;
 
-use core\base\Controller;
-
-class Posts extends Controller
+class Posts extends App
 {
   public function indexAction() {
     debug($this->route);
