@@ -9,6 +9,7 @@ define('WWW', __DIR__);
 define('ROOT', dirname(__DIR__));
 define('CORE', ROOT . '/core');
 define('APP', ROOT . '/app');
+define('CONFIG', ROOT . '/config');
 define('LAYOUT', 'default');
 
 require '../core/libs/functions.php';
