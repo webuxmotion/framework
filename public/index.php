@@ -2,6 +2,7 @@
 error_reporting(-1);
 
 use core\Router;
+use core\App;
 
 $query = trim($_SERVER['REQUEST_URI'], '/');
 
@@ -10,6 +11,7 @@ define('ROOT', dirname(__DIR__));
 define('CORE', ROOT . '/core');
 define('APP', ROOT . '/app');
 define('CONFIG', ROOT . '/config');
+define('CACHE', ROOT . '/tmp/cache');
 define('LAYOUT', 'default');
 
 require '../core/libs/functions.php';
@@ -20,6 +22,8 @@ spl_autoload_register(function($class) {
     require_once $file;
   }
 });
+
+new App;
 
 Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', ['controller' => 'Page']);
 Router::add('^page/(?P<alias>[a-z-]+)$', ['controller' => 'Page', 'action' => 'view']);

@@ -3,13 +3,19 @@
 namespace app\controllers;
 
 use app\models\Main;
+use core\App;
 
 class MainController extends AppController
 {
   public function indexAction() {
+    
+
     $model = new Main();
-    $posts = $model->findAll();
-    $posts2 = $model->findAll();
+    $posts = App::$app->cache->get('posts');
+    if (!$posts) {
+      $posts = $model->findAll();
+      App::$app->cache->set('posts', $posts);
+    }
     $postOne = $model->findOne(4, 'category_id');
     $data = $model->exec("SELECT * FROM {$model->table} ORDER BY id DESC LIMIT 2");
     $data2 = $model->exec(

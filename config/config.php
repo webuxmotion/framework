@@ -6,5 +6,3 @@ $config = [
         'test' => 'core\libs\Test'
     ]
 ];
-
-return $config;
