@@ -2,7 +2,7 @@
     <div class="container">
         <?php foreach ($posts as $post) : ?>
             <div class="card">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="/blue-eggs.jpg" style="width: 100px;" class="card-img-top" alt="red-egg">
                 <div class="card-body">
                     <h5 class="card-title"><?=$post['title']?></h5>
                     <p class="card-text"><?=$post['text']?></p>
