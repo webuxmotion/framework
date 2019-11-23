@@ -3,16 +3,16 @@
 namespace app\controllers;
 
 use app\models\Main;
-use core\App;
+use core\T;
 
 class MainController extends AppController
 {
   public function indexAction() {
     $model = new Main();
-    $posts = App::$app->cache->get('posts');
+    $posts = T::$one->cache->get('posts');
     if (!$posts) {
       $posts = $model->findAll();
-      App::$app->cache->set('posts', $posts);
+      T::$one->cache->set('posts', $posts);
     }
     $postOne = $model->findOne(4, 'category_id');
     $data = $model->exec("SELECT * FROM {$model->table} ORDER BY id DESC LIMIT 2");
