@@ -1,13 +1,11 @@
 <?php if (!empty($posts)) : ?>
     <div class="container">
         <?php foreach ($posts as $post) : ?>
-            <div class="card">
-                <img src="/blue-eggs.jpg" style="width: 100px;" class="card-img-top" alt="red-egg">
-                <div class="card-body">
-                    <h5 class="card-title"><?=$post['title']?></h5>
-                    <p class="card-text"><?=$post['text']?></p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="one">
+                <div class="one__img-wrap">
+                  <img src="/blue-eggs.jpg" alt="red-egg">
                 </div>
+                <h2><a href="/"><?=$post['title']?></a></h2>
             </div>
         <?php endforeach;?>
     </div>

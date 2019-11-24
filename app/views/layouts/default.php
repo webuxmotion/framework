@@ -7,10 +7,19 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="/styles.css">
    <?=$this->getMeta();?>
   </head>
   <body>
+<header class="header">
+  <a class="logo" href="/">PG-NEWS</a>
+</header>
+<div class="sidebar">
+  <div class="sidebar__header">Categories</div>
+</div>
+<div class="content">
     <?=$content?>
+</div>
 
     <!-- <?=debug(core\Db::$countSql)?>
     <?=debug(core\Db::$queries)?> -->
