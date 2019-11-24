@@ -124,3 +124,79 @@
 ======
 [2019-11-24 16:18:57] Error text: require(/var/www/html/public/menu/select.php): failed to open stream: No such file or directory | File: /var/www/html/core/widgets/menu/Menu.php | Line: 74
 ======
+[2019-11-24 16:37:43] Error text: Page not found | File: /var/www/html/core/Router.php | Line: 69
+======
+[2019-11-24 16:38:50] Error text: Page not found | File: /var/www/html/core/Router.php | Line: 69
+======
+[2019-11-24 16:38:51] Error text: Page not found | File: /var/www/html/core/Router.php | Line: 69
+======
+[2019-11-24 16:41:29] Error text: Controller <b>app\controllers\UserController</b> does not found | File: /var/www/html/core/Router.php | Line: 64
+======
+[2019-11-24 16:42:50] Error text: Controller <b>app\controllers\UserController</b> does not found | File: /var/www/html/core/Router.php | Line: 64
+======
+[2019-11-24 16:42:53] Error text: Controller <b>app\controllers\SdfController</b> does not found | File: /var/www/html/core/Router.php | Line: 64
+======
+[2019-11-24 16:52:37] Error text: Controller <b>app\controllers\SdfController</b> does not found | File: /var/www/html/core/Router.php | Line: 65
+======
+[2019-11-24 16:52:38] Error text: Controller <b>app\controllers\SdfController</b> does not found | File: /var/www/html/core/Router.php | Line: 65
+======
+[2019-11-24 16:55:23] Error text: Controller <b>app\controllers\SdfController</b> does not found | File: /var/www/html/core/Router.php | Line: 72
+======
+[2019-11-24 16:55:45] Error text: Controller <b>app\controllers\AsdfController</b> does not found | File: /var/www/html/core/Router.php | Line: 72
+======
+[2019-11-24 16:55:46] Error text: Controller <b>app\controllers\AsdfController</b> does not found | File: /var/www/html/core/Router.php | Line: 72
+======
+[2019-11-24 16:57:02] Error text: Controller <b>app\controllers\admin\UserController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 16:57:09] Error text: Controller <b>app\controllers\admin\SdfController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 16:57:12] Error text: Controller <b>app\controllers\admin\MainController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 16:57:15] Error text: Controller <b>app\controllers\admin\MainController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 16:58:53] Error text: Controller <b>app\controllers\admin\UserController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 16:59:18] Error text: Method <b>app\controllers\admin\UserController::indexAction</b> does not found | File: /var/www/html/core/Router.php | Line: 66
+======
+[2019-11-24 17:04:01] Error text: Controller <b>app\controllers\admin\MainController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 17:04:40] Error text: Controller <b>app\controllers\admin\MainController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 17:04:40] Error text: Controller <b>app\controllers\admin\MainController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 17:05:08] Error text: Undefined variable: df | File: /var/www/html/app/controllers/admin/UserController.php | Line: 8
+======
+[2019-11-24 17:08:22] Error text: Controller <b>app\controllers\admin\SdfController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 17:09:19] Error text: Method <b>app\controllers\admin\UserController::ddAction</b> does not found | File: /var/www/html/core/Router.php | Line: 66
+======
+[2019-11-24 17:09:49] Error text: <p>View <b>/var/www/html/app/views/admin/User/index.php</b> not found</p> | File: /var/www/html/core/base/View.php | Line: 32
+======
+[2019-11-24 17:46:47] Error text: Method <b>app\controllers\admin\UserController::testAction</b> does not found | File: /var/www/html/core/Router.php | Line: 66
+======
+[2019-11-24 17:48:23] Error text: Controller <b>app\controllers\admin\DController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 17:48:35] Error text: Controller <b>app\controllers\admin\DasdfController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 17:48:53] Error text: Controller <b>app\controllers\AdmindasdfController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 17:48:55] Error text: Controller <b>app\controllers\AdmindasdfController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 17:49:01] Error text: Controller <b>app\controllers\AdmindController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 17:49:10] Error text: Controller <b>app\controllers\AdmiController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 17:49:13] Error text: Controller <b>app\controllers\AdmisdfsdfController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 17:49:16] Error text: Controller <b>app\controllers\AdminsdfController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 17:49:20] Error text: Controller <b>app\controllers\admin\SdfController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 17:49:27] Error text: Controller <b>app\controllers\admin\SdfController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 17:52:28] Error text: Controller <b>app\controllers\admin\SdfController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-24 17:53:17] Error text: Undefined variable: test | File: /var/www/html/app/views/admin/User/index.php | Line: 2
+======
+[2019-11-24 17:53:39] Error text: Controller <b>app\controllers\admin\TestController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======

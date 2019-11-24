@@ -23,12 +23,13 @@ class View
 
     public function render($vars) {
         extract($vars);
-        $file_view = APP . "/views/{$this->route['controller']}/{$this->view}.php";
+        $prefix = str_replace('\\', '/', $this->route['prefix']);
+        $file_view = APP . "/views/{$prefix}{$this->route['controller']}/{$this->view}.php";
         ob_start();
         if (is_file($file_view)) {
             require $file_view;
         } else {
-            echo "<p>View <b>{$file_view}</b> not found</p>";
+            throw new \Exception("<p>View <b>{$file_view}</b> not found</p>", 404);
         }
         $content = ob_get_clean();
 
