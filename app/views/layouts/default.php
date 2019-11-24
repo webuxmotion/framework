@@ -13,7 +13,23 @@
   <body>
 <header class="header">
   <a class="logo" href="/">PG-NEWS</a>
-  <?php new \core\widgets\menu\Menu()?>
+  <?php new core\widgets\menu\Menu([
+    'tpl' => WWW . '/menu/select.php',
+    'container' => 'select',
+    'class' => 'my-select',
+    'table' => 'categories',
+    'cache' => 60,
+    'cacheKey' => 'menu_select',
+  ]); ?>
+
+  <?php new core\widgets\menu\Menu([
+    'tpl' => WWW . '/menu/my_menu.php',
+    'container' => 'ul',
+    'class' => 'my-menu',
+    'table' => 'categories',
+    'cache' => 60,
+    'cacheKey' => 'menu_ul',
+  ]); ?>
 </header>
 <div class="sidebar">
   <div class="sidebar__header">Categories</div>

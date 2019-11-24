@@ -50,3 +50,77 @@
 ======
 [2019-11-24 10:19:38] Error text: Class 'R' not found | File: /var/www/html/core/widgets/menu/Menu.php | Line: 23
 ======
+[2019-11-24 11:26:37] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:26:38] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:26:40] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:27:13] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:27:14] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:27:14] Error text: Page not found | File: /var/www/html/core/Router.php | Line: 69
+======
+[2019-11-24 11:28:00] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:28:32] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:29:10] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:29:23] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:30:00] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:30:17] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:30:18] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:30:39] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 3
+======
+[2019-11-24 11:30:43] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 3
+======
+[2019-11-24 11:31:33] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 3
+======
+[2019-11-24 11:34:59] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 3
+======
+[2019-11-24 11:35:04] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 3
+======
+[2019-11-24 11:35:23] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 3
+======
+[2019-11-24 11:35:24] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 3
+======
+[2019-11-24 11:35:24] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 3
+======
+[2019-11-24 11:39:52] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:39:53] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:40:09] Error text: Undefined index: id | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:40:18] Error text: Trying to get property 'id' of non-object | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:41:13] Error text: Array to string conversion | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:41:15] Error text: Array to string conversion | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:41:15] Error text: Page not found | File: /var/www/html/core/Router.php | Line: 69
+======
+[2019-11-24 11:41:31] Error text: Undefined property: core\widgets\menu\Menu::$df | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:41:42] Error text: Undefined property: core\widgets\menu\Menu::$df | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:41:42] Error text: Page not found | File: /var/www/html/core/Router.php | Line: 69
+======
+[2019-11-24 11:41:43] Error text: Undefined property: core\widgets\menu\Menu::$df | File: /var/www/html/core/widgets/menu/menu_tpl/menu.php | Line: 2
+======
+[2019-11-24 11:41:43] Error text: Page not found | File: /var/www/html/core/Router.php | Line: 69
+======
+[2019-11-24 11:43:44] Error text: Page not found | File: /var/www/html/core/Router.php | Line: 69
+======
+[2019-11-24 16:04:15] Error text: Class 'R' not found | File: /var/www/html/core/widgets/menu/Menu.php | Line: 43
+======
+[2019-11-24 16:10:19] Error text: Undefined index: title | File: /var/www/html/core/base/View.php | Line: 69
+======
+[2019-11-24 16:18:57] Error text: require(/var/www/html/public/menu/select.php): failed to open stream: No such file or directory | File: /var/www/html/core/widgets/menu/Menu.php | Line: 74
+======
