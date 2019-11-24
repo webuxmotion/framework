@@ -1,0 +1,12 @@
+[2019-11-24 05:12:34] Error text: Undefined variable: test | File: /var/www/html/public/test/error/index.php | Line: 58
+======
+[2019-11-24 05:14:32] Error text: Undefined variable: test | File: /var/www/html/public/test/error/index.php | Line: 58
+======
+[2019-11-24 05:14:40] Error text: Call to undefined function test() | File: /var/www/html/public/test/error/index.php | Line: 58
+======
+[2019-11-24 05:15:04] Error text: Call to undefined function test() | File: /var/www/html/public/test/error/index.php | Line: 58
+======
+[2019-11-24 05:15:24] Error text: Ups, exception | File: /var/www/html/public/test/error/index.php | Line: 69
+======
+[2019-11-24 05:15:43] Error text: Page not found | File: /var/www/html/public/test/error/index.php | Line: 70
+======
