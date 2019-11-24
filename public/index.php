@@ -16,15 +16,11 @@ define('CACHE', ROOT . '/tmp/cache');
 define('LAYOUT', 'default');
 
 require '../core/libs/functions.php';
+require ROOT . '/vendor/autoload.php';
 
-spl_autoload_register(function($class) {
-  $file = ROOT . '/' . str_replace('\\', '/', $class) . '.php';
-  if (is_file($file)) {
-    require_once $file;
-  }
-});
+class_alias('\RedBeanPHP\R', '\R');
 
-new T;
+new T();
 
 Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', ['controller' => 'Page']);
 Router::add('^page/(?P<alias>[a-z-]+)$', ['controller' => 'Page', 'action' => 'view']);

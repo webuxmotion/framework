@@ -28,6 +28,10 @@ abstract class Controller
     return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest';
   }
 
+  public function isPost() {
+    return $_SERVER['REQUEST_METHOD'] == 'POST';
+  }
+
   public function loadView($view, $vars = []) {
     extract($vars);
     require APP . "/views/{$this->route['controller']}/{$view}.php";

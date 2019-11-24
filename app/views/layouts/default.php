@@ -21,6 +21,11 @@
         'cache' => 60,
         'cacheKey' => 'menu_select',
       ]); ?>
+        <ul>
+            <li><a href="/user/login">Login</a></li>
+            <li><a href="/user/signup">Signup</a></li>
+            <li><a href="/user/logout">Logout</a></li>
+        </ul>
     </header>
     <div class="sidebar">
       <div class="sidebar__header">Categories</div>

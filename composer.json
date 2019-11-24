@@ -1,0 +1,21 @@
+{
+    "name": "andriipereverziev/framework",
+    "authors": [
+        {
+            "name": "Andrey Pereverzev",
+            "email": "pereverziev.andrii@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "core\\": "core",
+            "app\\": "app"
+        }
+    },
+    "require": {
+        "gabordemooij/redbean": "dev-master",
+        "monolog/monolog": "^1.25",
+        "phpmailer/phpmailer": "^6.1",
+        "vlucas/valitron": "^1.4"
+    }
+}

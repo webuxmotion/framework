@@ -4,6 +4,9 @@ namespace app\controllers;
 
 use app\models\Main;
 use core\T;
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+use PHPMailer\PHPMailer\PHPMailer;
 
 class MainController extends AppController
 {
@@ -27,6 +30,17 @@ class MainController extends AppController
   }
 
   public function testAction() {
+    // create a log channel
+    $log = new Logger('name');
+    $log->pushHandler(new StreamHandler(ROOT . '/tmp/myerrors.log', Logger::WARNING));
+
+    // add records to the log
+    $log->warning('Foo');
+    $log->error('Bar');
+
+//    $mailer = new PHPMailer();
+//    debug($mailer);
+
     $this->setMeta('Test page', 'a', 'b');
     if ($this->isAjax()) {
       $model = new Main();

@@ -18,7 +18,6 @@ class Db
         ];
         $this->pdo = new \PDO($db['dsn'], $db['user'], $db['pass'], $options);
 
-        require LIBS . '/rb.php';
         \R::setup($db['dsn'], $db['user'], $db['pass']);
         \R::freeze(true);
     }
