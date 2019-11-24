@@ -1,0 +1,8 @@
+[2019-11-24 06:29:27] Error text: Method <b>app\controllers\MainController::sdfdfAction</b> does not found | File: /var/www/html/core/Router.php | Line: 60
+======
+[2019-11-24 06:29:50] Error text: Page not found | File: /var/www/html/core/Router.php | Line: 69
+======
+[2019-11-24 06:30:36] Error text: posts | File: /var/www/html/app/controllers/MainController.php | Line: 28
+======
+[2019-11-24 06:31:17] Error text: Undefined variable: posts | File: /var/www/html/app/controllers/MainController.php | Line: 11
+======

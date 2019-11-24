@@ -8,5 +8,6 @@ class T
 
     public function __construct() {
         self::$one = Registry::instance();
+        new ErrorHandler();
     }
 }

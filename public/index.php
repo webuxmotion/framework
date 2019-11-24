@@ -1,11 +1,11 @@
 <?php
-error_reporting(-1);
 
 use core\Router;
 use core\T;
 
 $query = trim($_SERVER['REQUEST_URI'], '/');
 
+define('DEBUG', 1);
 define('WWW', __DIR__);
 define('ROOT', dirname(__DIR__));
 define('CORE', ROOT . '/core');

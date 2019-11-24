@@ -56,14 +56,17 @@ class Router
           $cObj->$action();
           $cObj->getView();
         } else {
-          echo "Method <b>$controller::$action</b> does not found";
+          //echo "Method <b>$controller::$action</b> does not found";
+          throw new \Exception("Method <b>$controller::$action</b> does not found", 404);
         }
       } else {
-        echo "Controller <b>$controller</b> does not found";
+        //echo "Controller <b>$controller</b> does not found";
+        throw new \Exception("Controller <b>$controller</b> does not found", 404);
       }
     } else {
-      http_response_code(404);
-      include '404.html';
+      //http_response_code(404);
+      //include '404.html';
+      throw new \Exception("Page not found", 404);
     }
   }
 
