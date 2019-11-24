@@ -9,6 +9,7 @@ $query = trim($_SERVER['REQUEST_URI'], '/');
 define('WWW', __DIR__);
 define('ROOT', dirname(__DIR__));
 define('CORE', ROOT . '/core');
+define('LIBS', ROOT . '/core/libs');
 define('APP', ROOT . '/app');
 define('CONFIG', ROOT . '/config');
 define('CACHE', ROOT . '/tmp/cache');

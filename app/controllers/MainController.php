@@ -28,8 +28,11 @@ class MainController extends AppController
   }
 
   public function testAction() {
+    $this->setMeta('Test page', 'a', 'b');
     if ($this->isAjax()) {
-      echo '111';
+      $model = new Main();
+      $post = \R::findOne('posts', "id = {$_POST['id']}");
+      $this->loadView('shared/post', compact('post'));
       die;
     }
   }

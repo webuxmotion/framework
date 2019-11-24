@@ -4,21 +4,16 @@ namespace core;
 
 class Registry
 {
+
+  use TSingletone;
+
     public static $objects = [];
-    protected static $instance;
     
     protected function __construct() {
         require_once CONFIG . '/config.php';
         foreach ($config['components'] as $name => $component) {
             self::$objects[$name] = new $component;
         }
-    }
-
-    public static function instance() {
-        if (self::$instance === null) {
-            self::$instance = new self;
-        }
-        return self::$instance;
     }
 
     public function __get($name) {

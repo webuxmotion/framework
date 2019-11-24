@@ -8,9 +8,11 @@ class View
     public $view;
     public $layout;
     public $scripts = [];
+    public static $meta = [];
 
-    public function __construct($route, $layout = '', $view = '') {
+    public function __construct($route, $layout = '', $view = '', $meta) {
         $this->route = $route;
+        self::$meta = $meta;
         if ($layout === false) {
             $this->layout = false;
         } else {
@@ -60,5 +62,13 @@ class View
         foreach ($scripts as $script) {
             echo $script;
         }
+    }
+
+    public static function getMeta() {
+      $res = '';
+      $res .= '<title>' . self::$meta['title'] . '</title>';
+      $res .= '<meta name="description" content="' . self::$meta['desc'] . '">';
+      $res .= '<meta name="keywords" content="' . self::$meta['keywords'] . '">';
+      echo $res;
     }
 }

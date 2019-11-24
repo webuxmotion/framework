@@ -9,7 +9,7 @@ $(function() {
             type: 'post',
             data: {'id': 2},
             success: function(res) {
-            console.log(res);
+              $('body').append(res); 
             },
             error: function() {
             alert('Error');
