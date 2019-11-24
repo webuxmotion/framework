@@ -53,9 +53,9 @@ class Registry
 }
 
 $app = Registry::instance();
-$app->getList();
+//$app->getList();
 
 $app->test->go();
 $app->test2 = 'classes\Test2';
-$app->getList();
+//$app->getList();
 $app->test2->hello();

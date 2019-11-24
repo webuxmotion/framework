@@ -8,7 +8,6 @@ use core\T;
 class MainController extends AppController
 {
   public function indexAction() {
-    echo $posts;
     $model = new Main();
     $posts = T::$one->cache->get('posts');
     if (!$posts) {
@@ -24,16 +23,14 @@ class MainController extends AppController
       ['%то%']
     );
     $data3 = $model->like('тор', 'title');
-    //debug($data3);
     $this->set(compact('posts'));
-    throw new \Exception('posts', 500);
   }
 
   public function testAction() {
     $this->setMeta('Test page', 'a', 'b');
     if ($this->isAjax()) {
       $model = new Main();
-      $post = \R::findOne('posts', "id = {$_POST['id']}");
+      $post = \R::findOne('posts', "id = {$_POST['id']}"); 
       $this->loadView('shared/post', compact('post'));
       die;
     }

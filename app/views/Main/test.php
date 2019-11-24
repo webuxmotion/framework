@@ -9,7 +9,9 @@ $(function() {
             type: 'post',
             data: {'id': 2},
             success: function(res) {
-              $('body').append(res); 
+              //let data = JSON.parse(res);
+              console.log(res);
+              $('.content').append(res);
             },
             error: function() {
             alert('Error');

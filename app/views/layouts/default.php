@@ -21,8 +21,6 @@
     <?=$content?>
 </div>
 
-    <!-- <?=debug(core\Db::$countSql)?>
-    <?=debug(core\Db::$queries)?> -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

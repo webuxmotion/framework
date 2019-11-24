@@ -6,7 +6,7 @@ $db = require '../config/config_db.php';
 R::setup( $db['dsn'], $db['user'], $db['pass']);
 //R::freeze(true);
 R::fancyDebug(TRUE);
-echo '<pre>';
+
 
 // $isConnected = R::testConnection();
 // var_dump($isConnected);

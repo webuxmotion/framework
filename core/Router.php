@@ -5,7 +5,7 @@ namespace core;
 class Router
 {
   public function __construct() {
-    echo 'Привет мир';
+    //echo 'Привет мир';
   }
 
   protected static $routes = [];
