@@ -13,6 +13,7 @@
   <body>
 <header class="header">
   <a class="logo" href="/">PG-NEWS</a>
+  <?php new \core\widgets\menu\Menu()?>
 </header>
 <div class="sidebar">
   <div class="sidebar__header">Categories</div>

@@ -30,3 +30,23 @@
 ======
 [2019-11-24 09:27:03] Error text: Undefined variable: dsfsdf | File: /var/www/html/app/controllers/MainController.php | Line: 32
 ======
+[2019-11-24 10:17:30] Error text: Class 'R' not found | File: /var/www/html/core/widgets/menu/Menu.php | Line: 20
+======
+[2019-11-24 10:17:31] Error text: Class 'R' not found | File: /var/www/html/core/widgets/menu/Menu.php | Line: 20
+======
+[2019-11-24 10:17:53] Error text: Class 'R' not found | File: /var/www/html/core/widgets/menu/Menu.php | Line: 21
+======
+[2019-11-24 10:17:53] Error text: Class 'R' not found | File: /var/www/html/core/widgets/menu/Menu.php | Line: 21
+======
+[2019-11-24 10:17:53] Error text: Class 'R' not found | File: /var/www/html/core/widgets/menu/Menu.php | Line: 21
+======
+[2019-11-24 10:17:54] Error text: Class 'R' not found | File: /var/www/html/core/widgets/menu/Menu.php | Line: 21
+======
+[2019-11-24 10:18:19] Error text: Class 'R' not found | File: /var/www/html/core/widgets/menu/Menu.php | Line: 20
+======
+[2019-11-24 10:18:20] Error text: Class 'R' not found | File: /var/www/html/core/widgets/menu/Menu.php | Line: 20
+======
+[2019-11-24 10:18:37] Error text: Call to a member function isFrozen() on null | File: /var/www/html/core/libs/rb.php | Line: 10291
+======
+[2019-11-24 10:19:38] Error text: Class 'R' not found | File: /var/www/html/core/widgets/menu/Menu.php | Line: 23
+======
