@@ -20,6 +20,7 @@ require ROOT . '/vendor/autoload.php';
 
 class_alias('\RedBeanPHP\R', '\R');
 
+session_start();
 new T();
 
 Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', ['controller' => 'Page']);

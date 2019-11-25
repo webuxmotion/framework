@@ -41,6 +41,23 @@
         </div>
     </div>
     <div class="content">
+
+        <?php if (isset($_SESSION['error'])) :?>
+        <div class="p-4">
+            <div class="alert mb-0 alert-danger">
+              <?=$_SESSION['error']; unset($_SESSION['error']);?>
+            </div>
+        </div>
+        <?php endif; ?>
+
+        <?php if (isset($_SESSION['success'])) :?>
+        <div class="p-4">
+            <div class="alert mb-0 alert-success">
+              <?=$_SESSION['success']; unset($_SESSION['success']);?>
+            </div>
+        </div>
+        <?php endif; ?>
+
         <?=$content?>
     </div>
 
