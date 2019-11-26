@@ -18,3 +18,7 @@ function redirect($http = false) {
 function h($str) {
   return htmlspecialchars($str, ENT_QUOTES);
 }
+
+function __($key) {
+  echo \core\base\Lang::get($key);
+}

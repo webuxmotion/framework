@@ -1,4 +1,5 @@
 <?php if (!empty($posts)) : ?>
+    <?=__('last_posts')?>
     <div class="container">
         <?php foreach ($posts as $post) : ?>
             <div class="one">

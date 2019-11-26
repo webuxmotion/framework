@@ -48,3 +48,11 @@
 ======
 [2019-11-26 22:57:57] Error text: Class 'app\controllers\T' not found | File: /var/www/html/app/controllers/LanguageController.php | Line: 17
 ======
+[2019-11-26 23:17:57] Error text: Array to string conversion | File: /var/www/html/core/base/Lang.php | Line: 12
+======
+[2019-11-26 23:22:00] Error text: Class 'core\Lang' not found | File: /var/www/html/app/views/Main/index.php | Line: 18
+======
+[2019-11-26 23:22:10] Error text: Class 'core\Lang' not found | File: /var/www/html/app/views/Main/index.php | Line: 18
+======
+[2019-11-26 23:25:53] Error text: Page not found | File: /var/www/html/core/Router.php | Line: 75
+======

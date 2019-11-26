@@ -2,6 +2,8 @@
 
 namespace core\base;
 
+use core\T;
+
 class View
 {
     public $route = [];
@@ -22,6 +24,7 @@ class View
     }
 
     public function render($vars) {
+      Lang::load(T::$one->getProperty('lang')['code'], $this->route);
         extract($vars);
         $prefix = str_replace('\\', '/', $this->route['prefix']);
         $file_view = APP . "/views/{$prefix}{$this->route['controller']}/{$this->view}.php";

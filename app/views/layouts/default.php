@@ -29,7 +29,7 @@
         <?php new \core\widgets\language\Language();?>
     </header>
     <div class="sidebar">
-      <div class="sidebar__header">Categories</div>
+      <div class="sidebar__header"><?=__('categories')?></div>
         <div class="sidebar__nav-wrap">
           <?php new core\widgets\menu\Menu([
             'tpl' => WWW . '/menu/my_menu.php',
