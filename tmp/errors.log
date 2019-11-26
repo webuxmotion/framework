@@ -18,3 +18,33 @@
 ======
 [2019-11-26 22:11:28] Error text: Array to string conversion | File: /var/www/html/core/widgets/language/lang_tpl.php | Line: 7
 ======
+[2019-11-26 22:44:02] Error text: Page not found | File: /var/www/html/core/Router.php | Line: 75
+======
+[2019-11-26 22:44:04] Error text: Page not found | File: /var/www/html/core/Router.php | Line: 75
+======
+[2019-11-26 22:46:56] Error text: Controller <b>app\controllers\LanguageController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-26 22:47:28] Error text: Controller <b>app\controllers\LanguageController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-26 22:47:33] Error text: Controller <b>app\controllers\LanguageController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-26 22:48:03] Error text: Controller <b>app\controllers\LanguageController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-26 22:48:08] Error text: Controller <b>app\controllers\LanguageController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-26 22:48:11] Error text: Controller <b>app\controllers\LanguageController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-26 22:48:12] Error text: Controller <b>app\controllers\LanguageController</b> does not found | File: /var/www/html/core/Router.php | Line: 70
+======
+[2019-11-26 22:49:40] Error text: <p>View <b>/var/www/html/app/views/Language/change.php</b> not found</p> | File: /var/www/html/core/base/View.php | Line: 32
+======
+[2019-11-26 22:50:03] Error text: <p>View <b>/var/www/html/app/views/Language/change.php</b> not found</p> | File: /var/www/html/core/base/View.php | Line: 32
+======
+[2019-11-26 22:50:29] Error text: <p>View <b>/var/www/html/app/views/Language/change.php</b> not found</p> | File: /var/www/html/core/base/View.php | Line: 32
+======
+[2019-11-26 22:50:44] Error text: <p>View <b>/var/www/html/app/views/Language/change.php</b> not found</p> | File: /var/www/html/core/base/View.php | Line: 32
+======
+[2019-11-26 22:51:05] Error text: <p>View <b>/var/www/html/app/views/Language/change.php</b> not found</p> | File: /var/www/html/core/base/View.php | Line: 32
+======
+[2019-11-26 22:57:57] Error text: Class 'app\controllers\T' not found | File: /var/www/html/app/controllers/LanguageController.php | Line: 17
+======
