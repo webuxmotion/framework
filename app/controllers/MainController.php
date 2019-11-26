@@ -12,9 +12,10 @@ use PHPMailer\PHPMailer\PHPMailer;
 class MainController extends AppController
 {
   public function indexAction() {
-    $total = \R::count('posts');
+    $lang = T::$one->getProperty('lang')['code'];
+    $total = \R::count('posts', 'lang_code = ?', [$lang]);
     $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
-    $perpage = 1;
+    $perpage = 4;
     $pagination = new Pagination($page, $perpage, $total);
     $start = $pagination->getStart();
 
@@ -23,7 +24,7 @@ class MainController extends AppController
 //      $posts = \R::findAll('posts', "LIMIT $start, $perpage");
 //      T::$one->cache->set('posts', $posts);
 //    }
-    $posts = \R::findAll('posts', "LIMIT $start, $perpage");
+    $posts = \R::findAll('posts', "lang_code = ? LIMIT $start, $perpage", [$lang]);
     $this->setMeta('Main page');
     $this->set(compact('posts','pagination'));
   }
