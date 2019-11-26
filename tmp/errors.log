@@ -1,0 +1,186 @@
+[2019-11-26 16:42:13] Error text: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ???? ???? ??????????.  | File: D:\Projects\framework\core\Db.php | Line: 19
+======
+[2019-11-26 16:42:14] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:43:42] Error text: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) | File: D:\Projects\framework\core\Db.php | Line: 19
+======
+[2019-11-26 16:43:43] Error text: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) | File: D:\Projects\framework\core\Db.php | Line: 19
+======
+[2019-11-26 16:43:43] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:43:47] Error text: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) | File: D:\Projects\framework\core\Db.php | Line: 19
+======
+[2019-11-26 16:43:47] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:43:48] Error text: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) | File: D:\Projects\framework\core\Db.php | Line: 19
+======
+[2019-11-26 16:43:48] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:44:08] Error text: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) | File: D:\Projects\framework\core\Db.php | Line: 19
+======
+[2019-11-26 16:44:08] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:44:42] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework_db.posts' doesn't exist | File: D:\Projects\framework\core\Db.php | Line: 35
+======
+[2019-11-26 16:44:42] Error text: A non well formed numeric value encountered | File: D:\Projects\framework\core\ErrorHandler.php | Line: 28
+======
+[2019-11-26 16:44:42] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:45:31] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework_db.posts' doesn't exist | File: D:\Projects\framework\core\Db.php | Line: 35
+======
+[2019-11-26 16:45:32] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:45:55] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework_db.posts' doesn't exist | File: D:\Projects\framework\core\Db.php | Line: 35
+======
+[2019-11-26 16:45:55] Error text: A non well formed numeric value encountered | File: D:\Projects\framework\core\ErrorHandler.php | Line: 28
+======
+[2019-11-26 16:45:55] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:46:10] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework_db.posts' doesn't exist | File: D:\Projects\framework\core\Db.php | Line: 35
+======
+[2019-11-26 16:46:10] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:46:28] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework_db.posts' doesn't exist | File: D:\Projects\framework\core\Db.php | Line: 35
+======
+[2019-11-26 16:46:28] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:47:30] Error text: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) | File: D:\Projects\framework\core\Db.php | Line: 19
+======
+[2019-11-26 16:47:30] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:47:35] Error text: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) | File: D:\Projects\framework\core\Db.php | Line: 19
+======
+[2019-11-26 16:47:35] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:47:39] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework_db.posts' doesn't exist | File: D:\Projects\framework\core\Db.php | Line: 35
+======
+[2019-11-26 16:47:39] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:47:40] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework_db.posts' doesn't exist | File: D:\Projects\framework\core\Db.php | Line: 35
+======
+[2019-11-26 16:47:41] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:47:43] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework_db.posts' doesn't exist | File: D:\Projects\framework\core\Db.php | Line: 35
+======
+[2019-11-26 16:47:43] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:48:07] Error text: <p>View <b>D:\Projects\framework/app/views/Page/view.php</b> not found</p> | File: D:\Projects\framework\core\base\View.php | Line: 36
+======
+[2019-11-26 16:48:07] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:48:14] Error text: <p>View <b>D:\Projects\framework/app/views/Page/view.php</b> not found</p> | File: D:\Projects\framework\core\base\View.php | Line: 36
+======
+[2019-11-26 16:48:14] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:48:45] Error text: <p>View <b>D:\Projects\framework/app/views/Page/view.php</b> not found</p> | File: D:\Projects\framework\core\base\View.php | Line: 36
+======
+[2019-11-26 16:48:45] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:48:59] Error text: unserialize(): Error at offset 2070 of 2137 bytes | File: D:\Projects\framework\core\libs\Cache.php | Line: 20
+======
+[2019-11-26 16:48:59] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:49:04] Error text: unserialize(): Error at offset 2070 of 2137 bytes | File: D:\Projects\framework\core\libs\Cache.php | Line: 20
+======
+[2019-11-26 16:49:04] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:49:10] Error text: Method <b>app\controllers\admin\UserController::registerAction</b> does not found | File: D:\Projects\framework\core\Router.php | Line: 66
+======
+[2019-11-26 16:49:10] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:49:45] Error text: Method <b>app\controllers\UserController::registerAction</b> does not found | File: D:\Projects\framework\core\Router.php | Line: 66
+======
+[2019-11-26 16:49:45] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:49:55] Error text: unserialize(): Error at offset 2070 of 2137 bytes | File: D:\Projects\framework\core\libs\Cache.php | Line: 20
+======
+[2019-11-26 16:49:55] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:50:02] Error text: unserialize(): Error at offset 2070 of 2137 bytes | File: D:\Projects\framework\core\libs\Cache.php | Line: 20
+======
+[2019-11-26 16:50:02] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:54:50] Error text: unserialize(): Error at offset 2070 of 2137 bytes | File: D:\Projects\framework\core\libs\Cache.php | Line: 20
+======
+[2019-11-26 16:54:50] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:55:03] Error text: unserialize(): Error at offset 2070 of 2137 bytes | File: D:\Projects\framework\core\libs\Cache.php | Line: 20
+======
+[2019-11-26 16:55:03] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:57:27] Error text: unserialize(): Error at offset 2070 of 2137 bytes | File: D:\Projects\framework\core\libs\Cache.php | Line: 20
+======
+[2019-11-26 16:57:27] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:57:30] Error text: unserialize(): Error at offset 2070 of 2137 bytes | File: D:\Projects\framework\core\libs\Cache.php | Line: 20
+======
+[2019-11-26 16:57:31] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 16:58:02] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework_db.categories' doesn't exist | File: D:\Projects\framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line: 194
+======
+[2019-11-26 16:58:03] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 17:01:38] Error text: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) | File: D:\Projects\framework\core\Db.php | Line: 19
+======
+[2019-11-26 17:01:39] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 17:01:52] Error text: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) | File: D:\Projects\framework\core\Db.php | Line: 19
+======
+[2019-11-26 17:01:53] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 17:02:15] Error text: SQLSTATE[HY000] [1045] Access denied for user 'bshopuser'@'localhost' (using password: YES) | File: D:\Projects\framework\core\Db.php | Line: 19
+======
+[2019-11-26 17:02:15] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 17:02:21] Error text: SQLSTATE[HY000] [1045] Access denied for user 'bshopuser'@'localhost' (using password: NO) | File: D:\Projects\framework\core\Db.php | Line: 19
+======
+[2019-11-26 17:02:21] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 17:02:29] Error text: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) | File: D:\Projects\framework\core\Db.php | Line: 19
+======
+[2019-11-26 17:02:30] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 17:03:16] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework_db.categories' doesn't exist | File: D:\Projects\framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line: 194
+======
+[2019-11-26 17:03:17] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 17:03:24] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework_db.categories' doesn't exist | File: D:\Projects\framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line: 194
+======
+[2019-11-26 17:03:25] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 17:03:31] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework_db.categories' doesn't exist | File: D:\Projects\framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line: 194
+======
+[2019-11-26 17:03:32] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 17:03:43] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework_db.categories' doesn't exist | File: D:\Projects\framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line: 194
+======
+[2019-11-26 17:03:44] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 17:11:47] Error text: ob_start(): output handler 'ob_gzhandler' conflicts with 'zlib output compression' | File: D:\Projects\framework\core\base\View.php | Line: 49
+======
+[2019-11-26 17:11:48] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 17:11:48] Error text: ob_start(): output handler 'ob_gzhandler' conflicts with 'zlib output compression' | File: D:\Projects\framework\core\base\View.php | Line: 49
+======
+[2019-11-26 17:11:49] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 17:12:04] Error text: ob_start(): output handler 'ob_gzhandler' conflicts with 'zlib output compression' | File: D:\Projects\framework\core\base\View.php | Line: 49
+======
+[2019-11-26 17:12:04] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 17:12:12] Error text: ob_start(): output handler 'ob_gzhandler' conflicts with 'zlib output compression' | File: D:\Projects\framework\core\base\View.php | Line: 49
+======
+[2019-11-26 17:12:13] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 17:14:33] Error text: ob_start(): output handler 'ob_gzhandler' conflicts with 'zlib output compression' | File: D:\Projects\framework\core\base\View.php | Line: 49
+======
+[2019-11-26 17:14:33] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 17:14:34] Error text: ob_start(): output handler 'ob_gzhandler' conflicts with 'zlib output compression' | File: D:\Projects\framework\core\base\View.php | Line: 49
+======
+[2019-11-26 17:14:35] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======
+[2019-11-26 17:15:30] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework_db.categories' doesn't exist | File: D:\Projects\framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Line: 194
+======
+[2019-11-26 17:15:30] Error text: Page not found | File: D:\Projects\framework\core\Router.php | Line: 75
+======

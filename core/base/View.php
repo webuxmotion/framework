@@ -21,17 +21,39 @@ class View
         $this->view = $view;
     }
 
+    protected function compressPage($buffer){
+        $search = [
+            "/(\n)+/",
+            "/\r\n+/",
+            "/\n(\t)+/",
+            "/\n(\ )+/",
+            "/\>(\n)+</",
+            "/\>\r\n</",
+        ];
+        $replace = [
+            "\n",
+            "\n",
+            "\n",
+            "\n",
+            '><',
+            '><',
+        ];
+        return preg_replace($search, $replace, $buffer);
+    }
+
     public function render($vars) {
         extract($vars);
         $prefix = str_replace('\\', '/', $this->route['prefix']);
         $file_view = APP . "/views/{$prefix}{$this->route['controller']}/{$this->view}.php";
-        ob_start();
+        ob_start([$this, 'compressPage']);
+        //ob_start('ob_gzhandler');
         if (is_file($file_view)) {
             require $file_view;
         } else {
             throw new \Exception("<p>View <b>{$file_view}</b> not found</p>", 404);
         }
-        $content = ob_get_clean();
+        $content = ob_get_contents();
+        //$content = ob_get_clean();
 
         if ($this->layout !== false) {
             $file_layout = APP . "/views/layouts/{$this->layout}.php";

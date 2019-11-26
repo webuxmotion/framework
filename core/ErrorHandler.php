@@ -40,7 +40,7 @@ class ErrorHandler
 
   public function exceptionHandler($e) {
     $this->logError($e->getMessage(), $e->getFile(), $e->getLine());
-    $this->displayError('Exception', $e->getMessage(), $e->getFile(), $e->getLine(), $e->getCode());
+    $this->displayError('Exception', $e->getMessage(), $e->getFile(), $e->getLine(), 500);
   }
 
   public function fatalErrorHandler() {
