@@ -9,4 +9,9 @@
             </div>
         <?php endforeach;?>
     </div>
+    <?php if ($pagination->countPages > 1) : ?>
+        <div class="text-center">
+          <?=$pagination?>
+        </div>
+    <?php endif; ?>
 <?php endif; ?>

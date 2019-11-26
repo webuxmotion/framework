@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use app\models\Main;
+use core\libs\Pagination;
 use core\T;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
@@ -11,22 +12,20 @@ use PHPMailer\PHPMailer\PHPMailer;
 class MainController extends AppController
 {
   public function indexAction() {
-    $model = new Main();
-    $posts = T::$one->cache->get('posts');
-    if (!$posts) {
-      $posts = $model->findAll();
-      T::$one->cache->set('posts', $posts);
-    }
-    $postOne = $model->findOne(4, 'category_id');
-    $data = $model->exec("SELECT * FROM {$model->table} ORDER BY id DESC LIMIT 2");
-    $data2 = $model->exec(
-      "SELECT * FROM {$model->table} 
-       WHERE title LIKE ? 
-       ORDER BY id DESC LIMIT 2", 
-      ['%то%']
-    );
-    $data3 = $model->like('тор', 'title');
-    $this->set(compact('posts'));
+    $total = \R::count('posts');
+    $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+    $perpage = 1;
+    $pagination = new Pagination($page, $perpage, $total);
+    $start = $pagination->getStart();
+
+//    $posts = T::$one->cache->get('posts');
+//    if (!$posts) {
+//      $posts = \R::findAll('posts', "LIMIT $start, $perpage");
+//      T::$one->cache->set('posts', $posts);
+//    }
+    $posts = \R::findAll('posts', "LIMIT $start, $perpage");
+    $this->setMeta('Main page');
+    $this->set(compact('posts','pagination'));
   }
 
   public function testAction() {
