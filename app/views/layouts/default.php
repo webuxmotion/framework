@@ -26,6 +26,7 @@
             <li><a href="/user/signup">Signup</a></li>
             <li><a href="/user/logout">Logout</a></li>
         </ul>
+        <?php new \core\widgets\language\Language();?>
     </header>
     <div class="sidebar">
       <div class="sidebar__header">Categories</div>
