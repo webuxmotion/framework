@@ -8,9 +8,12 @@ class Cache
         $content['data'] = $data;
         $content['end_time'] = time() + $seconds;
         $filename = $this->generateFilename($key);
-        if (file_put_contents($filename, serialize($content))) {
-            return true;
+        if (file_exists($filename)) {
+            if (file_put_contents($filename, serialize($content))) {
+                return true;
+            }
         }
+        
         return false;
     }
 
